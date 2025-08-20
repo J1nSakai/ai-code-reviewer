@@ -1,0 +1,19 @@
+:root {
+  --bg-color: oklch(0.23 0.016 307);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; /* Ensures consistent box model sizing */
+}
+
+html,
+body {
+  line-height: 1.6; /* Sets a comfortable line height for text */
+  background-color: var(--bg-color);
+  height: 100%;
+  width: 100%;
+}
